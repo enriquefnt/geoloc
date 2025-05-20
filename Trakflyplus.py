@@ -62,35 +62,44 @@ def main():
     gpx_route = gpxpy.gpx.GPXRoute()
     gpx.routes.append(gpx_route)
 
-    # Agregar primer punto como waypoint de salida
-    gpx_route.points.append(gpxpy.gpx.GPXRoutePoint(latitudes[0], longitudes[0]))
-
+    # Inicializar variables previas para control de filtros y para calcular distancia y rumbo entre waypoints adicionados
     prev_bearing = None
+    prev_lat = latitudes[0]
+    prev_lon = longitudes[0]
 
+    # Agregar primer punto como waypoint de salida con descripción vacía o nula (no hay distancia ni rumbo previo)
+    first_point = gpxpy.gpx.GPXRoutePoint(prev_lat, prev_lon, description="Inicio del recorrido")
+    gpx_route.points.append(first_point)
+
+    # Recorrer el dataframe para agregar waypoints con filtros y descripciones
     for i in range(1, len(df)-1):
-        lat1, lon1 = latitudes[i-1], longitudes[i-1]
-        lat2, lon2 = latitudes[i], longitudes[i]
+        lat = latitudes[i]
+        lon = longitudes[i]
+        bearing = calculate_bearing(prev_lat, prev_lon, lat, lon)
+        distance = geodesic((prev_lat, prev_lon), (lat, lon)).kilometers
 
-        # Calcular el rumbo
-        bearing = calculate_bearing(lat1, lon1, lat2, lon2)
-
-        # Calcular la distancia
-        distance = geodesic((lat1, lon1), (lat2, lon2)).kilometers
-
-        # Verificar si el cambio de rumbo es mayor al mínimo y la distancia mayor al mínimo
         if (prev_bearing is None or abs(bearing - prev_bearing) >= min_bearing_change) and distance > min_distance_km:
-            gpx_route.points.append(gpxpy.gpx.GPXRoutePoint(lat2, lon2))
+            desc = f"Bearing: {bearing:.2f}°\nDistance: {distance:.2f} km"
+            waypoint = gpxpy.gpx.GPXRoutePoint(lat, lon, description=desc)
+            gpx_route.points.append(waypoint)
             prev_bearing = bearing
+            prev_lat = lat
+            prev_lon = lon
 
-    # Agregar último punto como waypoint de arribo
-    gpx_route.points.append(gpxpy.gpx.GPXRoutePoint(latitudes.iloc[-1], longitudes.iloc[-1]))
+    # Agregar último punto como waypoint de arribo con descripción calculada respecto al previo agregado
+    lat_end = latitudes.iloc[-1]
+    lon_end = longitudes.iloc[-1]
+    bearing_end = calculate_bearing(prev_lat, prev_lon, lat_end, lon_end)
+    distance_end = geodesic((prev_lat, prev_lon), (lat_end, lon_end)).kilometers
+    desc_end = f"Bearing: {bearing_end:.2f}°\nDistance: {distance_end:.2f} km (último punto)"
+    last_point = gpxpy.gpx.GPXRoutePoint(lat_end, lon_end, description=desc_end)
+    gpx_route.points.append(last_point)
 
-    # Guardar archivo GPX con el nombre generado
-    with open(gpx_filename, "w") as f:
+    # Guardar archivo GPX con el nombre generado y codificación UTF-8
+    with open(gpx_filename, "w", encoding="utf-8") as f:
         f.write(gpx.to_xml())
 
     print(f"Archivo GPX generado: {gpx_filename}")
 
 if __name__ == "__main__":
     main()
-
