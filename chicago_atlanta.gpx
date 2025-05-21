@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <rte>
+    <rtept lat="41.9691" lon="-87.8961">
+      <desc>Inicio del recorrido</desc>
+    </rtept>
+    <rtept lat="41.535" lon="-87.6959">
+      <desc>Bearing: 160.95°
+Distance: 51.01 km</desc>
+    </rtept>
+    <rtept lat="41.0839" lon="-87.5441">
+      <desc>Bearing: 165.76°
+Distance: 51.69 km</desc>
+    </rtept>
+    <rtept lat="40.266" lon="-87.2469">
+      <desc>Bearing: 164.50°
+Distance: 94.24 km</desc>
+    </rtept>
+    <rtept lat="39.8778" lon="-86.8586">
+      <desc>Bearing: 142.44°
+Distance: 54.36 km</desc>
+    </rtept>
+    <rtept lat="39.5386" lon="-86.3751">
+      <desc>Bearing: 132.21°
+Distance: 56.01 km</desc>
+    </rtept>
+    <rtept lat="36.8571" lon="-82.89">
+      <desc>Bearing: 133.30°
+Distance: 426.30 km</desc>
+    </rtept>
+    <rtept lat="36.4033" lon="-82.9608">
+      <desc>Bearing: 187.16°
+Distance: 50.76 km</desc>
+    </rtept>
+    <rtept lat="35.6825" lon="-83.1149">
+      <desc>Bearing: 189.85°
+Distance: 81.18 km</desc>
+    </rtept>
+    <rtept lat="35.2478" lon="-83.3641">
+      <desc>Bearing: 205.10°
+Distance: 53.27 km</desc>
+    </rtept>
+    <rtept lat="34.761" lon="-83.6618">
+      <desc>Bearing: 206.69°
+Distance: 60.46 km</desc>
+    </rtept>
+    <rtept lat="34.3742" lon="-83.9564">
+      <desc>Bearing: 212.18°
+Distance: 50.71 km</desc>
+    </rtept>
+    <rtept lat="33.9075" lon="-84.0765">
+      <desc>Bearing: 192.06°
+Distance: 52.94 km</desc>
+    </rtept>
+    <rtept lat="33.6495" lon="-84.4204">
+      <desc>Bearing: 228.03°
+Distance: 42.82 km (último punto)</desc>
+    </rtept>
+  </rte>
+</gpx>
