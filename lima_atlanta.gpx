@@ -1,19 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <rte>
-    <rtept lat="-12.0372" lon="-77.1189">
+    <rtept lat="-12.0315" lon="-77.1216">
     </rtept>
-    <rtept lat="-8.7954" lon="-78.6439">
+    <rtept lat="-11.7812" lon="-77.41">
     </rtept>
-    <rtept lat="-0.00009876" lon="-79.8559">
+    <rtept lat="-11.4554" lon="-77.6625">
     </rtept>
-    <rtept lat="3.0301" lon="-79.8165">
+    <rtept lat="-10.9236" lon="-78.0392">
     </rtept>
-    <rtept lat="12.8904" lon="-80.4823">
+    <rtept lat="-10.5825" lon="-78.2178">
     </rtept>
-    <rtept lat="22.264" lon="-81.3156">
+    <rtept lat="-10.2274" lon="-78.3354">
     </rtept>
-    <rtept lat="33.6203" lon="-84.4327">
+    <rtept lat="-9.8699" lon="-78.4116">
+    </rtept>
+    <rtept lat="-1.4935" lon="-79.8606">
+    </rtept>
+    <rtept lat="-1.0964" lon="-79.857">
+    </rtept>
+    <rtept lat="4.273" lon="-79.5736">
+    </rtept>
+    <rtept lat="4.8299" lon="-79.4553">
+    </rtept>
+    <rtept lat="5.2243" lon="-79.3169">
+    </rtept>
+    <rtept lat="5.6213" lon="-79.313">
+    </rtept>
+    <rtept lat="6.019" lon="-79.3354">
+    </rtept>
+    <rtept lat="6.4147" lon="-79.3852">
+    </rtept>
+    <rtept lat="24.6098" lon="-81.1452">
+    </rtept>
+    <rtept lat="25.0086" lon="-81.1041">
+    </rtept>
+    <rtept lat="26.6869" lon="-81.0061">
+    </rtept>
+    <rtept lat="27.068" lon="-81.0915">
+    </rtept>
+    <rtept lat="31.6793" lon="-82.3832">
+    </rtept>
+    <rtept lat="32.0091" lon="-82.5981">
+    </rtept>
+    <rtept lat="32.3192" lon="-82.9156">
+    </rtept>
+    <rtept lat="33.5436" lon="-84.0915">
+    </rtept>
+    <rtept lat="33.6318" lon="-84.4232">
     </rtept>
   </rte>
 </gpx>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <rte>
+    <rtept lat="33.6347" lon="-84.426">
+      <desc>Inicio del recorrido</desc>
+    </rtept>
+    <rtept lat="33.633" lon="-84.6449">
+      <desc>Bearing: 269.53°
+Distance: 20.31 km</desc>
+    </rtept>
+    <rtept lat="33.4353" lon="-84.6704">
+      <desc>Bearing: 186.14°
+Distance: 22.06 km</desc>
+    </rtept>
+    <rtept lat="33.2835" lon="-84.5066">
+      <desc>Bearing: 137.93°
+Distance: 22.71 km</desc>
+    </rtept>
+    <rtept lat="33.1326" lon="-84.33">
+      <desc>Bearing: 135.55°
+Distance: 23.48 km</desc>
+    </rtept>
+    <rtept lat="32.9254" lon="-84.228">
+      <desc>Bearing: 157.55°
+Distance: 24.88 km</desc>
+    </rtept>
+    <rtept lat="32.7549" lon="-84.15">
+      <desc>Bearing: 158.95°
+Distance: 20.27 km</desc>
+    </rtept>
+    <rtept lat="30.381" lon="-83.0245">
+      <desc>Bearing: 157.71°
+Distance: 284.07 km</desc>
+    </rtept>
+    <rtept lat="30.2238" lon="-82.9114">
+      <desc>Bearing: 148.12°
+Distance: 20.54 km</desc>
+    </rtept>
+    <rtept lat="29.987" lon="-82.8166">
+      <desc>Bearing: 160.87°
+Distance: 27.80 km</desc>
+    </rtept>
+    <rtept lat="29.1023" lon="-82.4997">
+      <desc>Bearing: 162.61°
+Distance: 102.76 km</desc>
+    </rtept>
+    <rtept lat="28.8979" lon="-82.4622">
+      <desc>Bearing: 170.87°
+Distance: 22.95 km</desc>
+    </rtept>
+    <rtept lat="27.8628" lon="-82.2504">
+      <desc>Bearing: 169.74°
+Distance: 116.58 km</desc>
+    </rtept>
+    <rtept lat="27.66" lon="-82.1834">
+      <desc>Bearing: 163.69°
+Distance: 23.42 km</desc>
+    </rtept>
+    <rtept lat="23.629" lon="-80.9962">
+      <desc>Bearing: 164.87°
+Distance: 462.19 km</desc>
+    </rtept>
+    <rtept lat="23.4472" lon="-80.9788">
+      <desc>Bearing: 174.98°
+Distance: 20.21 km</desc>
+    </rtept>
+    <rtept lat="23.2265" lon="-80.9313">
+      <desc>Bearing: 168.81°
+Distance: 24.92 km</desc>
+    </rtept>
+    <rtept lat="21.8931" lon="-80.6845">
+      <desc>Bearing: 170.25°
+Distance: 149.82 km</desc>
+    </rtept>
+    <rtept lat="21.6746" lon="-80.6821">
+      <desc>Bearing: 179.42°
+Distance: 24.20 km</desc>
+    </rtept>
+    <rtept lat="14.1214" lon="-80.4634">
+      <desc>Bearing: 178.39°
+Distance: 836.31 km</desc>
+    </rtept>
+    <rtept lat="13.9217" lon="-80.4293">
+      <desc>Bearing: 170.59°
+Distance: 22.40 km</desc>
+    </rtept>
+    <rtept lat="12.4047" lon="-80.1998">
+      <desc>Bearing: 171.59°
+Distance: 169.66 km</desc>
+    </rtept>
+    <rtept lat="12.1382" lon="-80.2102">
+      <desc>Bearing: 182.18°
+Distance: 29.50 km</desc>
+    </rtept>
+    <rtept lat="3.7944" lon="-80.6921">
+      <desc>Bearing: 183.31°
+Distance: 924.33 km</desc>
+    </rtept>
+    <rtept lat="3.5992" lon="-80.7361">
+      <desc>Bearing: 192.68°
+Distance: 22.13 km</desc>
+    </rtept>
+    <rtept lat="3.0856" lon="-80.8344">
+      <desc>Bearing: 190.82°
+Distance: 57.83 km</desc>
+    </rtept>
+    <rtept lat="2.9106" lon="-80.8926">
+      <desc>Bearing: 198.37°
+Distance: 20.40 km</desc>
+    </rtept>
+    <rtept lat="2.7124" lon="-80.9379">
+      <desc>Bearing: 192.86°
+Distance: 22.49 km</desc>
+    </rtept>
+    <rtept lat="1.316" lon="-81.2254">
+      <desc>Bearing: 191.63°
+Distance: 157.69 km</desc>
+    </rtept>
+    <rtept lat="1.0465" lon="-81.2459">
+      <desc>Bearing: 184.35°
+Distance: 29.89 km</desc>
+    </rtept>
+    <rtept lat="0.000098" lon="-81.251">
+      <desc>Bearing: 180.28°
+Distance: 115.71 km</desc>
+    </rtept>
+    <rtept lat="-1.0205" lon="-81.4026">
+      <desc>Bearing: 188.45°
+Distance: 114.11 km</desc>
+    </rtept>
+    <rtept lat="-1.2306" lon="-81.4185">
+      <desc>Bearing: 184.33°
+Distance: 23.30 km</desc>
+    </rtept>
+    <rtept lat="-3.5892" lon="-81.547">
+      <desc>Bearing: 183.11°
+Distance: 261.20 km</desc>
+    </rtept>
+    <rtept lat="-3.7949" lon="-81.49">
+      <desc>Bearing: 164.54°
+Distance: 23.61 km</desc>
+    </rtept>
+    <rtept lat="-4.6321" lon="-81.2416">
+      <desc>Bearing: 163.53°
+Distance: 96.60 km</desc>
+    </rtept>
+    <rtept lat="-4.7948" lon="-81.1492">
+      <desc>Bearing: 150.49°
+Distance: 20.71 km</desc>
+    </rtept>
+    <rtept lat="-11.9812" lon="-77.1343">
+      <desc>Bearing: 151.34°
+Distance: 909.38 km (último punto)</desc>
+    </rtept>
+  </rte>
+</gpx>
